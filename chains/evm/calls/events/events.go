@@ -3,7 +3,7 @@ package events
 import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/VaivalGithub/chainsafe-core/types"
+	"github.com/OPN-Network/chainsafe-core/types"
 )
 
 type EventSig string

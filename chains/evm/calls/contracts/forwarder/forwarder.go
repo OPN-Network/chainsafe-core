@@ -6,9 +6,9 @@ import (
 
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/VaivalGithub/chainsafe-core/chains/evm/calls"
-	"github.com/VaivalGithub/chainsafe-core/chains/evm/calls/consts"
-	"github.com/VaivalGithub/chainsafe-core/chains/evm/calls/contracts"
+	"github.com/OPN-Network/chainsafe-core/chains/evm/calls"
+	"github.com/OPN-Network/chainsafe-core/chains/evm/calls/consts"
+	"github.com/OPN-Network/chainsafe-core/chains/evm/calls/contracts"
 )
 
 // ForwarderContract matches an instance of https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/metatx/MinimalForwarder.sol

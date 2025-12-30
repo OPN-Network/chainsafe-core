@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/VaivalGithub/chainsafe-core/crypto/secp256k1"
+	"github.com/OPN-Network/chainsafe-core/crypto/secp256k1"
 
 	"github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/common"

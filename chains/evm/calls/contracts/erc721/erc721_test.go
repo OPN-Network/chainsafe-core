@@ -4,14 +4,14 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/VaivalGithub/chainsafe-core/chains/evm/calls/contracts/erc721"
-	mock_calls "github.com/VaivalGithub/chainsafe-core/chains/evm/calls/mock"
+	"github.com/OPN-Network/chainsafe-core/chains/evm/calls/contracts/erc721"
+	mock_calls "github.com/OPN-Network/chainsafe-core/chains/evm/calls/mock"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/golang/mock/gomock"
-	"github.com/VaivalGithub/chainsafe-core/chains/evm/calls/transactor"
-	mock_transactor "github.com/VaivalGithub/chainsafe-core/chains/evm/calls/transactor/mock"
-	"github.com/VaivalGithub/chainsafe-core/chains/evm/calls/transactor/signAndSend"
+	"github.com/OPN-Network/chainsafe-core/chains/evm/calls/transactor"
+	mock_transactor "github.com/OPN-Network/chainsafe-core/chains/evm/calls/transactor/mock"
+	"github.com/OPN-Network/chainsafe-core/chains/evm/calls/transactor/signAndSend"
 	"github.com/stretchr/testify/suite"
 )
 

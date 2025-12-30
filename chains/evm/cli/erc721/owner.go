@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/VaivalGithub/chainsafe-core/chains/evm/calls/contracts/erc721"
-	"github.com/VaivalGithub/chainsafe-core/chains/evm/calls/evmtransaction"
-	"github.com/VaivalGithub/chainsafe-core/chains/evm/cli/initialize"
-	"github.com/VaivalGithub/chainsafe-core/util"
+	"github.com/OPN-Network/chainsafe-core/chains/evm/calls/contracts/erc721"
+	"github.com/OPN-Network/chainsafe-core/chains/evm/calls/evmtransaction"
+	"github.com/OPN-Network/chainsafe-core/chains/evm/cli/initialize"
+	"github.com/OPN-Network/chainsafe-core/util"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/VaivalGithub/chainsafe-core/chains/evm/cli/flags"
-	"github.com/VaivalGithub/chainsafe-core/chains/evm/cli/logger"
+	"github.com/OPN-Network/chainsafe-core/chains/evm/cli/flags"
+	"github.com/OPN-Network/chainsafe-core/chains/evm/cli/logger"
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/cobra"
 )

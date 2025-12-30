@@ -3,7 +3,7 @@ package prepare
 import (
 	"fmt"
 
-	"github.com/VaivalGithub/chainsafe-core/chains/evm/calls/transactor"
+	"github.com/OPN-Network/chainsafe-core/chains/evm/calls/transactor"
 
 	"github.com/ethereum/go-ethereum/common"
 )

@@ -9,12 +9,12 @@ import (
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/golang/mock/gomock"
-	"github.com/VaivalGithub/chainsafe-core/chains/evm/calls/consts"
-	"github.com/VaivalGithub/chainsafe-core/chains/evm/calls/contracts/forwarder"
-	"github.com/VaivalGithub/chainsafe-core/chains/evm/calls/transactor"
-	"github.com/VaivalGithub/chainsafe-core/chains/evm/calls/transactor/itx"
-	mock_forwarder "github.com/VaivalGithub/chainsafe-core/chains/evm/calls/transactor/itx/mock"
-	"github.com/VaivalGithub/chainsafe-core/crypto/secp256k1"
+	"github.com/OPN-Network/chainsafe-core/chains/evm/calls/consts"
+	"github.com/OPN-Network/chainsafe-core/chains/evm/calls/contracts/forwarder"
+	"github.com/OPN-Network/chainsafe-core/chains/evm/calls/transactor"
+	"github.com/OPN-Network/chainsafe-core/chains/evm/calls/transactor/itx"
+	mock_forwarder "github.com/OPN-Network/chainsafe-core/chains/evm/calls/transactor/itx/mock"
+	"github.com/OPN-Network/chainsafe-core/crypto/secp256k1"
 	"github.com/stretchr/testify/suite"
 )
 

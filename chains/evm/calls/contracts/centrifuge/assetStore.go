@@ -4,14 +4,14 @@ import (
 	"strings"
 
 	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/VaivalGithub/chainsafe-core/chains/evm/calls"
-	"github.com/VaivalGithub/chainsafe-core/chains/evm/calls/contracts"
-	"github.com/VaivalGithub/chainsafe-core/chains/evm/calls/transactor"
+	"github.com/OPN-Network/chainsafe-core/chains/evm/calls"
+	"github.com/OPN-Network/chainsafe-core/chains/evm/calls/contracts"
+	"github.com/OPN-Network/chainsafe-core/chains/evm/calls/transactor"
 	"github.com/rs/zerolog/log"
 
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/VaivalGithub/chainsafe-core/chains/evm/calls/consts"
+	"github.com/OPN-Network/chainsafe-core/chains/evm/calls/consts"
 )
 
 type AssetStoreContract struct {

@@ -8,7 +8,7 @@ import (
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
 	ethTypes "github.com/ethereum/go-ethereum/core/types"
-	"github.com/VaivalGithub/chainsafe-core/chains/evm/calls/consts"
+	"github.com/OPN-Network/chainsafe-core/chains/evm/calls/consts"
 	"github.com/rs/zerolog/log"
 )
 

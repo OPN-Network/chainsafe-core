@@ -8,7 +8,7 @@ import (
 	"github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/VaivalGithub/chainsafe-core/chains/evm/calls/evmclient"
+	"github.com/OPN-Network/chainsafe-core/chains/evm/calls/evmclient"
 	"github.com/rs/zerolog/log"
 )
 

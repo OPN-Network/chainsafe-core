@@ -7,7 +7,7 @@ package mock_transactor
 import (
 	reflect "reflect"
 
-	transactor "github.com/VaivalGithub/chainsafe-core/chains/evm/calls/transactor"
+	transactor "github.com/OPN-Network/chainsafe-core/chains/evm/calls/transactor"
 	common "github.com/ethereum/go-ethereum/common"
 	gomock "github.com/golang/mock/gomock"
 )

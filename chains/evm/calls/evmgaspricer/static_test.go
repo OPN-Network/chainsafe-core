@@ -5,7 +5,7 @@ import (
 	"math/big"
 	"testing"
 
-	mock_evmgaspricer "github.com/VaivalGithub/chainsafe-core/chains/evm/calls/evmgaspricer/mock"
+	mock_evmgaspricer "github.com/OPN-Network/chainsafe-core/chains/evm/calls/evmgaspricer/mock"
 
 	"github.com/golang/mock/gomock"
 

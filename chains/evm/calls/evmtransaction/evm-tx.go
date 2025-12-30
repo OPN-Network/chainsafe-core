@@ -5,7 +5,7 @@ import (
 	"math/big"
 	"fmt"
 
-	"github.com/VaivalGithub/chainsafe-core/chains/evm/calls/evmclient"
+	"github.com/OPN-Network/chainsafe-core/chains/evm/calls/evmclient"
 
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"

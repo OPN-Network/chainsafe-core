@@ -5,11 +5,11 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/golang/mock/gomock"
-	erc20 "github.com/VaivalGithub/chainsafe-core/chains/evm/calls/contracts/erc20"
-	mock_calls "github.com/VaivalGithub/chainsafe-core/chains/evm/calls/mock"
-	"github.com/VaivalGithub/chainsafe-core/chains/evm/calls/transactor"
-	mock_transactor "github.com/VaivalGithub/chainsafe-core/chains/evm/calls/transactor/mock"
-	"github.com/VaivalGithub/chainsafe-core/chains/evm/calls/transactor/prepare"
+	erc20 "github.com/OPN-Network/chainsafe-core/chains/evm/calls/contracts/erc20"
+	mock_calls "github.com/OPN-Network/chainsafe-core/chains/evm/calls/mock"
+	"github.com/OPN-Network/chainsafe-core/chains/evm/calls/transactor"
+	mock_transactor "github.com/OPN-Network/chainsafe-core/chains/evm/calls/transactor/mock"
+	"github.com/OPN-Network/chainsafe-core/chains/evm/calls/transactor/prepare"
 	"github.com/stretchr/testify/suite"
 )
 

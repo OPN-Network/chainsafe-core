@@ -8,7 +8,7 @@ import (
 	big "math/big"
 	reflect "reflect"
 
-	forwarder "github.com/VaivalGithub/chainsafe-core/chains/evm/calls/contracts/forwarder"
+	forwarder "github.com/OPN-Network/chainsafe-core/chains/evm/calls/contracts/forwarder"
 	common "github.com/ethereum/go-ethereum/common"
 	gomock "github.com/golang/mock/gomock"
 )

@@ -8,10 +8,10 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/golang/mock/gomock"
-	"github.com/VaivalGithub/chainsafe-core/chains/evm/calls/transactor"
-	"github.com/VaivalGithub/chainsafe-core/chains/evm/calls/transactor/itx"
-	mock_itx "github.com/VaivalGithub/chainsafe-core/chains/evm/calls/transactor/itx/mock"
-	"github.com/VaivalGithub/chainsafe-core/crypto/secp256k1"
+	"github.com/OPN-Network/chainsafe-core/chains/evm/calls/transactor"
+	"github.com/OPN-Network/chainsafe-core/chains/evm/calls/transactor/itx"
+	mock_itx "github.com/OPN-Network/chainsafe-core/chains/evm/calls/transactor/itx/mock"
+	"github.com/OPN-Network/chainsafe-core/crypto/secp256k1"
 	"github.com/stretchr/testify/suite"
 )
 

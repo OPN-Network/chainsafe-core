@@ -6,16 +6,16 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/VaivalGithub/chainsafe-core/chains/evm/calls/contracts/bridge"
-	mock_calls "github.com/VaivalGithub/chainsafe-core/chains/evm/calls/mock"
-	"github.com/VaivalGithub/chainsafe-core/chains/evm/calls/transactor"
+	"github.com/OPN-Network/chainsafe-core/chains/evm/calls/contracts/bridge"
+	mock_calls "github.com/OPN-Network/chainsafe-core/chains/evm/calls/mock"
+	"github.com/OPN-Network/chainsafe-core/chains/evm/calls/transactor"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/golang/mock/gomock"
-	mock_transactor "github.com/VaivalGithub/chainsafe-core/chains/evm/calls/transactor/mock"
-	"github.com/VaivalGithub/chainsafe-core/chains/evm/calls/transactor/signAndSend"
-	"github.com/VaivalGithub/chainsafe-core/chains/evm/executor/proposal"
-	"github.com/VaivalGithub/chainsafe-core/relayer/message"
+	mock_transactor "github.com/OPN-Network/chainsafe-core/chains/evm/calls/transactor/mock"
+	"github.com/OPN-Network/chainsafe-core/chains/evm/calls/transactor/signAndSend"
+	"github.com/OPN-Network/chainsafe-core/chains/evm/executor/proposal"
+	"github.com/OPN-Network/chainsafe-core/relayer/message"
 	"github.com/stretchr/testify/suite"
 )
 

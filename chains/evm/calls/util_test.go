@@ -1,12 +1,12 @@
 package calls_test
 
 import (
-	"github.com/VaivalGithub/chainsafe-core/chains/evm/calls"
-	mock_calls "github.com/VaivalGithub/chainsafe-core/chains/evm/calls/mock"
+	"github.com/OPN-Network/chainsafe-core/chains/evm/calls"
+	mock_calls "github.com/OPN-Network/chainsafe-core/chains/evm/calls/mock"
 	"math/big"
 	"testing"
 
-	"github.com/VaivalGithub/chainsafe-core/crypto/secp256k1"
+	"github.com/OPN-Network/chainsafe-core/crypto/secp256k1"
 	"github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"

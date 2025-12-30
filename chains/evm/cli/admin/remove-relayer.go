@@ -4,9 +4,9 @@ import (
 	"fmt"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/VaivalGithub/chainsafe-core/chains/evm/cli/flags"
-	"github.com/VaivalGithub/chainsafe-core/chains/evm/cli/logger"
-	"github.com/VaivalGithub/chainsafe-core/util"
+	"github.com/OPN-Network/chainsafe-core/chains/evm/cli/flags"
+	"github.com/OPN-Network/chainsafe-core/chains/evm/cli/logger"
+	"github.com/OPN-Network/chainsafe-core/util"
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/cobra"
 )
