@@ -185,7 +185,11 @@ func (c *EVMChain) Write(msg *message.Message) error {
 			mh.RegisterMessageHandler(c.config.Erc721Handler, executor.ERC721MessageHandler)
 			mh.RegisterMessageHandler(c.config.GenericHandler, executor.GenericMessageHandler)
 			proposal, err := mh.HandleMessage(msg)
-			encodedPayload, err := bridgeABI.Pack("voteProposal", proposal.Source, proposal.DepositNonce, proposal.ResourceId, proposal.Data)
+			fmt.Printf("\n Data: %+v \n", proposal.Data)
+			fmt.Printf("\n Source: %+v \n", proposal.Source)
+			fmt.Printf("\n DepositNonce: %+v \n", proposal.DepositNonce)
+			fmt.Printf("\n ResourceId: %+v \n", proposal.ResourceId)
+            encodedPayload, err := bridgeABI.Pack("voteProposal", proposal.Source, proposal.DepositNonce, proposal.ResourceId, proposal.Data)
 			if err != nil {
 				fmt.Println("\nError Encoding Calldata:", err)
 			}
