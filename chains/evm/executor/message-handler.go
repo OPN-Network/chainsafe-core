@@ -80,6 +80,11 @@ func ERC20MessageHandler(m *message.Message, handlerAddr, bridgeAddress common.A
 		return nil, errors.New("malformed payload. Len  of payload should be 2")
 	}
 	amount, ok := m.Payload[0].([]byte)
+	amountInt := new(big.Int).SetBytes(amount)
+	fmt.Printf("\n[ERC20MessageHandler] Source Chain ID: %d, Destination Chain ID: %d\n", m.Source, m.Destination)
+	fmt.Printf("Resource ID: %x\n", m.ResourceId)
+	fmt.Printf("Amount (bytes): %+v\n", amount)
+	fmt.Printf("Amount (int): %s\n", amountInt.String())
 	if !ok {
 		return nil, errors.New("wrong payload amount format")
 	}
