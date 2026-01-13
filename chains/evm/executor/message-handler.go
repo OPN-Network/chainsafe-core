@@ -86,11 +86,14 @@ func ERC20MessageHandler(m *message.Message, handlerAddr, bridgeAddress common.A
 	fmt.Printf("Amount (bytes): %+v\n", amount)
 	fmt.Printf("Amount (int): %s\n", amountInt.String())
 
-	// Resource ID to match (as hex string, lowercase)
-	targetResourceID := "611f1b068afe8c257c6008f7f509c9fa3cc488cafbe968dc10588818abfeb435"
+	// Resource IDs to match (as hex string, lowercase)
+	targetResourceIDs := map[string]bool{
+		"611f1b068afe8c257c6008f7f509c9fa3cc488cafbe968dc10588818abfeb435": true,
+		"a334bd6d4e65a0ab57b2aac114df09e2831be92397ffffa7a12710ce40bca2ad": true,
+	}
 	resourceIDHex := fmt.Sprintf("%x", m.ResourceId)
 	// 18 -> 6 decimals
-	if m.Source == 3 && m.Destination == 1 && resourceIDHex == targetResourceID {
+	if m.Source == 3 && m.Destination == 1 && targetResourceIDs[resourceIDHex] {
 		fmt.Println("[ERC20MessageHandler] Normalizing amount from 18 to 6 decimals")
 		factor := new(big.Int).Exp(big.NewInt(10), big.NewInt(12), nil) // 10^12
 		amountInt = new(big.Int).Div(amountInt, factor)
@@ -98,7 +101,7 @@ func ERC20MessageHandler(m *message.Message, handlerAddr, bridgeAddress common.A
 		fmt.Printf("Normalized Amount (int): %s\n", amountInt.String())
 	}
 	// 6 -> 18 decimals
-	if m.Source == 1 && m.Destination == 3 && resourceIDHex == targetResourceID {
+	if m.Source == 1 && m.Destination == 3 && targetResourceIDs[resourceIDHex] {
 		fmt.Println("[ERC20MessageHandler] Normalizing amount from 6 to 18 decimals")
 		factor := new(big.Int).Exp(big.NewInt(10), big.NewInt(12), nil) // 10^12
 		amountInt = new(big.Int).Mul(amountInt, factor)
